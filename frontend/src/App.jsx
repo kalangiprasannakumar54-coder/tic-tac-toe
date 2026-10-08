@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 
 
 
-import Auth from "./Auth";
+import Auth from "./auth";
 
 import api from "./api";
 
