@@ -11,7 +11,7 @@ const connectDB = require("./config/db");
 // IMPORTANT: filenames are lowercase
 // because Render uses Linux and is case-sensitive.
 
-const Game = require("./models/game");
+const Game = require("./models/Game");
 
 const authRoutes = require("./routes/authRoutes");
 const userRoutes = require("./routes/userRoutes");
